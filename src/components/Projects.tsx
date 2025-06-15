@@ -4,15 +4,33 @@ import { Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Classification of Gravitational Waves",
-    description: "A machine learning project from my class with Prof. Dr. Altan Çakır, focused on classifying gravitational wave signals.",
-    github: "https://github.com/aycayk/classification_of_gravitational_waves",
-    tags: ["Machine Learning", "Python", "Physics"]
+    title: "Gravitational Wave Classification (LSTM)",
+    description: "Classifies gravitational waves (BBH, BNS, and NSBH) using LSTM deep learning. Processes simulated time-series data from the L1 detector.",
+    github: "https://github.com/arzuunrk/gw_classification_lstm",
+    tags: ["Deep Learning", "LSTM", "Python", "Physics"]
+  },
+  {
+    title: "İş Bankası Ludi Simulation",
+    description: "Data and code for İş Bankası's next-gen banking simulation, including campaign generation and customer list creation.",
+    github: "https://github.com/arzuunrk/ynbs_is_bankasi",
+    tags: ["Jupyter Notebook", "Banking", "Data Science"]
+  },
+  {
+    title: "Blockchain Projects",
+    description: "A collection of my projects exploring blockchain technology and its various applications.",
+    github: "https://github.com/arzuunrk/blockchain",
+    tags: ["Blockchain", "Crypto"]
+  },
+  {
+    title: "100 Days of Code",
+    description: "Evaluating and advancing my Python skills to an advanced level through a focused coding challenge.",
+    github: "https://github.com/arzuunrk/100_day_challenge",
+    tags: ["Python", "Self-Learning"]
   },
   {
     title: "Denizbank Data Analysis Bootcamp",
     description: "Completed a data analysis bootcamp by Denizbank & ITÜ, covering various data analysis techniques and tools.",
-    github: "https://github.com/arzuunr/bootcamp_veri_analizi",
+    github: "https://github.com/arzuunrk/bootcamp_veri_analizi",
     tags: ["Data Analysis", "Python", "Pandas"]
   },
   {

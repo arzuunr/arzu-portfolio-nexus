@@ -23,7 +23,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Arzu Nur Köroğlu. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Arzu Köroğlu. All Rights Reserved.
         </div>
       </div>
     </footer>
