@@ -1,12 +1,13 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Code, Github, Terminal, FileText } from "lucide-react";
 
 const technicalSkills = [
-  "Python (Pandas, Numpy, Matplotlib)",
-  "Git & Github",
-  "C# (Unity)",
-  "Bash",
-  "Microsoft Office (Excel)"
+  { name: "Python (Pandas, Numpy, Matplotlib)", icon: <Code className="h-5 w-5 text-primary" /> },
+  { name: "Git & Github", icon: <Github className="h-5 w-5 text-primary" /> },
+  { name: "C# (Unity)", icon: <Code className="h-5 w-5 text-primary" /> },
+  { name: "Bash", icon: <Terminal className="h-5 w-5 text-primary" /> },
+  { name: "Microsoft Office (Excel)", icon: <FileText className="h-5 w-5 text-primary" /> }
 ];
 
 const languageSkills = [
@@ -26,9 +27,12 @@ const Skills = () => {
               <CardTitle>Technical Skills</CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="space-y-2">
+              <ul className="space-y-4">
                 {technicalSkills.map((skill) => (
-                  <li key={skill} className="text-muted-foreground">{skill}</li>
+                  <li key={skill.name} className="flex items-center gap-3 text-muted-foreground">
+                    {skill.icon}
+                    <span className="text-foreground">{skill.name}</span>
+                  </li>
                 ))}
               </ul>
             </CardContent>

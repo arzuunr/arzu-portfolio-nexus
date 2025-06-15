@@ -54,7 +54,7 @@ const Projects = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Projects & Ventures</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {projects.map((project) => (
-            <Card key={project.title} className="flex flex-col bg-card hover:border-primary/50 transition-all">
+            <Card key={project.title} className="flex flex-col bg-card hover:border-primary/50 transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-xl">
               <CardHeader>
                 <CardTitle>{project.title}</CardTitle>
                 <CardDescription className="pt-2">{project.description}</CardDescription>
