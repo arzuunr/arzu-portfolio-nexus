@@ -1,5 +1,5 @@
 
-import { Github } from "lucide-react";
+import { Github, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -15,10 +15,16 @@ const Footer = () => {
             </a>
         </div>
         <div className="flex justify-center items-center space-x-6 mb-8">
-          <a href="https://github.com/arzuunrk" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">
+            <a href="tel:+905368343357" className="text-muted-foreground hover:text-primary flex items-center space-x-1">
+              <Phone className="h-5 w-5" />
+              <span>+90 536 834 3357</span>
+            </a>
+        </div>
+        <div className="flex justify-center items-center space-x-6 mb-8">
+          <a href="https://github.com/arzuunr" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">
             <Github className="h-6 w-6" />
           </a>
-          <a href="https://www.linkedin.com/in/arzu-koroglu/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary font-semibold">
+          <a href="https://www.linkedin.com/in/arzuunr" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary font-semibold">
             LinkedIn
           </a>
         </div>

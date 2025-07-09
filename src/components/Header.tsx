@@ -24,7 +24,7 @@ const Header = () => {
           ))}
         </nav>
         <div className="flex items-center space-x-4 ml-auto">
-          <a href="https://github.com/arzuunrk" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">
+          <a href="https://github.com/arzuunr" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">
             <Github className="h-5 w-5" />
           </a>
         </div>
