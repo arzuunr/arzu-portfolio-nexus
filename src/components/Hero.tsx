@@ -7,9 +7,7 @@ const Hero = () => {
       </div>
       <div className="relative z-10 p-4 container mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-4 animate-fade-in-down text-foreground">Arzunur Köroğlu</h1>
-        <p className="text-lg md:text-2xl text-muted-foreground mb-8 animate-fade-in-up">
-          Physics Engineer Student | Aspiring Data Scientist & Quant
-        </p>
+        <p className="text-lg md:text-2xl text-muted-foreground mb-8 animate-fade-in-up">Physics Engineer Student | Aspiring Data Scientist &amp; Growth Analyst</p>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 animate-fade-in">
           <a href="#projects" className="bg-primary text-primary-foreground hover:bg-primary/90 px-6 py-3 rounded-md text-lg font-semibold transition-colors w-full sm:w-auto">
             View My Work
