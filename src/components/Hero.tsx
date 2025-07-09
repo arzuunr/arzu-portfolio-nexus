@@ -6,7 +6,7 @@ const Hero = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-background/70"></div>
       </div>
       <div className="relative z-10 p-4 container mx-auto">
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-4 animate-fade-in-down text-foreground">Arzu Köroğlu</h1>
+        <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-4 animate-fade-in-down text-foreground">Arzunur Köroğlu</h1>
         <p className="text-lg md:text-2xl text-muted-foreground mb-8 animate-fade-in-up">
           Physics Engineer Student | Aspiring Data Scientist & Quant
         </p>
