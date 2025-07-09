@@ -1,10 +1,16 @@
 
 const experiences = [
     {
+        role: "Growth Analyst",
+        company: "Yanhak",
+        date: "May 2024 - Present",
+        description: "Analyzing growth metrics and developing strategies to optimize business performance and user engagement."
+    },
+    {
         role: "Project Management Intern",
         company: "SCA Social",
-        date: "May 2024 - Present",
-        description: "Gaining hands-on experience in project management in a professional environment."
+        date: "May 19 - May 25, 2024",
+        description: "Gained hands-on experience in project management in a professional environment."
     },
     {
         role: "Co-Founder",

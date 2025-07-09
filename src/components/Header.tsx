@@ -14,7 +14,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container h-14 flex items-center max-w-5xl mx-auto px-4">
         <a href="#" className="mr-6 flex items-center space-x-2">
-            <span className="font-bold">Arzu Köroğlu</span>
+            <span className="font-bold">Arzunur Köroğlu</span>
         </a>
         <nav className="hidden md:flex items-center space-x-4 lg:space-x-6 mr-auto">
           {navLinks.map((link) => (
