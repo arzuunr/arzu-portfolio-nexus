@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Github } from "lucide-react";
 
@@ -6,7 +5,7 @@ const projects = [
   {
     title: "Gravitational Wave Classification (LSTM)",
     description: "Classifies gravitational waves (BBH, BNS, and NSBH) using LSTM deep learning. Processes simulated time-series data from the L1 detector.",
-    github: "https://github.com/arzuunrk/gw_classification_lstm",
+    github: "https://github.com/aycayk/classification_of_gravitational_waves",
     tags: ["Deep Learning", "LSTM", "Python", "Physics"]
   },
   {
