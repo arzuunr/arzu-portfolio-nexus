@@ -1,3 +1,4 @@
+
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Github } from "lucide-react";
 
@@ -11,25 +12,25 @@ const projects = [
   {
     title: "İş Bankası Ludi Simulation",
     description: "Data and code for İş Bankası's next-gen banking simulation, including campaign generation and customer list creation.",
-    github: "https://github.com/arzuunrk/ynbs_is_bankasi",
+    github: "https://github.com/arzuunr/ynbs_is_bankasi",
     tags: ["Jupyter Notebook", "Banking", "Data Science"]
   },
   {
     title: "Blockchain Projects",
     description: "A collection of my projects exploring blockchain technology and its various applications.",
-    github: "https://github.com/arzuunrk/blockchain",
+    github: "https://github.com/arzuunr/blockchain",
     tags: ["Blockchain", "Crypto"]
   },
   {
     title: "100 Days of Code",
     description: "Evaluating and advancing my Python skills to an advanced level through a focused coding challenge.",
-    github: "https://github.com/arzuunrk/100_day_challenge",
+    github: "https://github.com/arzuunr/100_day_challenge",
     tags: ["Python", "Self-Learning"]
   },
   {
     title: "Denizbank Data Analysis Bootcamp",
     description: "Completed a data analysis bootcamp by Denizbank & ITÜ, covering various data analysis techniques and tools.",
-    github: "https://github.com/arzuunrk/bootcamp_veri_analizi",
+    github: "https://github.com/arzuunr/bootcamp_veri_analizi",
     tags: ["Data Analysis", "Python", "Pandas"]
   },
   {
